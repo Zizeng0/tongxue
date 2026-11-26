@@ -1,0 +1,24 @@
+fastapi>=0.115,<1
+starlette>=1.10,<2
+uvicorn>=0.34,<1
+python-multipart>=0.0.20,<1
+httpx>=0.28,<1
+fastmcp-slim[server]>=3.4.11,<4
+pytest>=8,<10
+langgraph>=1.1,<2
+langchain>=1.2,<2
+langchain-ollama>=1,<2
+langchain-openai>=1,<2
+langchain-deepseek>=1,<2
+langchain-anthropic>=1,<2
+pypdf>=6,<7
+psycopg[binary]>=3.2,<4
+redis>=5,<8
+matplotlib>=3.9,<4
+numpy>=2,<3
+cictikz @ git+https://github.com/wulffern/cictikz.git@9ef9d5505e444ba933cec586ab65e926324f17ca
+pymysql>=1.1,<2
+python-dotenv>=1,<2
+sqlalchemy>=2,<3
+PyJWT>=2.10,<3
+-r General_Tools/requirements.txt
