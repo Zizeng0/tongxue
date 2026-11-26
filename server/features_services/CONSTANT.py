@@ -1,0 +1,49 @@
+"""功能服务使用的提示和错误文本。"""
+
+MODEL_SETTINGS_INVALID = "请填写有效的 base_url、api-key 和模型名称。"
+MODEL_BASE_URL_INVALID = "base_url 必须是有效的 HTTP 或 HTTPS API 地址。"
+MODEL_ENDPOINT_PRIVATE = "此内网地址未配置为工作台的模型服务。"
+MODEL_CATALOG_UNAVAILABLE = "无法加载模型列表，请检查 base_url、API Key 和服务状态。"
+MODEL_CATALOG_AUTH = "模型服务拒绝认证，请检查 API Key 的权限。"
+MODEL_SELECTION_UNAVAILABLE = "所选模型未出现在对应的模型列表中，请重新选择。"
+MODEL_SETTINGS_CHANGED = "模型配置已在其他页面修改，请刷新后重新提交。"
+MODEL_SETTINGS_STORAGE_ERROR = "无法读取或写入模型配置，请检查后端数据目录。"
+LOGIN_REQUIRED = '请先登录'
+SESSION_EXPIRED = '登录已失效'
+ADMIN_REQUIRED = '仅管理员可操作'
+INVALID_LOGIN = '用户名或密码错误'
+ACCOUNT_DISABLED = '账号已禁用'
+PASSWORD_MISMATCH = '两次输入的密码不一致'
+USERNAME_REQUIRED = '用户名不能为空'
+FILE_NOT_FOUND = '文件不存在'
+USERNAME_EXISTS = '用户名已存在'
+AVATAR_TOO_LARGE = '头像不能超过 5 MB'
+AVATAR_TYPE_UNSUPPORTED = '头像仅支持 PNG、JPEG 或 WebP 图片'
+AVATAR_NOT_FOUND = '头像不存在'
+USER_NOT_FOUND = '用户不存在'
+OWN_ACCOUNT_DELETE_FORBIDDEN = '不能删除当前账号'
+
+ROOMMATE_NOT_FOUND = "室友会话不存在。"
+ROOMMATE_IMAGE_FORMAT_INVALID = "unsupported image"
+ROOMMATE_IMAGE_INVALID = "请上传有效的题图，每张最多 2500 万像素。"
+ROOMMATE_INPUT_REQUIRED = "请输入任务要求或上传附件。"
+ROOMMATE_TOO_MANY_IMAGES = "每次最多上传 {limit} 张题图。"
+ROOMMATE_TOO_MANY_FILES = "每次最多上传 {limit} 份文件。"
+ROOMMATE_FILE_TYPE_UNSUPPORTED = "文件支持 PDF、DOCX、PPTX、TXT 和 Markdown。"
+ROOMMATE_TOO_MANY_TEMPLATES = "每次请选择一个 PPTX 模板。"
+ROOMMATE_FILE_SIZE_EXCEEDED = "PDF、DOCX 和 PPTX 每份最大 25 MB，文本文件每份最大 256 KB。"
+ROOMMATE_TEXT_ENCODING_INVALID = "文本文件请使用 UTF-8 编码。"
+ROOMMATE_IMAGE_TYPE_UNSUPPORTED = "请上传 PNG、JPG、WebP、GIF 或 BMP 题图。"
+ROOMMATE_IMAGE_SIZE_EXCEEDED = "每张题图最大 25 MB。"
+ROOMMATE_SAVING_TASK = "正在保存任务和附件"
+ROOMMATE_TASK_FAILED_LOG = "Roommate task failed (%s)"
+ROOMMATE_TASK_FAILED = "本次任务处理失败，请重试。"
+ROOMMATE_SAVING_REPLY = "正在保存处理结果"
+ROOMMATE_TASK_FINISHED = "处理完成"
+ROOMMATE_TASK_ERROR = "处理失败"
+ROOMMATE_OUTPUT_IMAGE_MISSING = "题解图片不存在。"
+ROOMMATE_INPUT_IMAGE_MISSING = "上传的题图不存在。"
+
+OUTPUT_SETTINGS_READ_FAILED = "无法读取输出设置。"
+OUTPUT_SETTINGS_WRITE_FAILED = "无法保存输出设置。"
+OUTPUT_INSTRUCTION = "账号输出详略规范：{rule} 本轮明确的长度、结构及交付要求优先，保留任务所需的准确性。"
